@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Assests/download.jpeg'); /* Replace with the path to your GIF */
+    background-size: cover; /* Ensures the GIF covers the entire header */
+    background-position: center;
+    color: #000000;
+}
+
+/* Logo Positioning */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.logo img {
+    width: 100px; /* Adjust the logo size as needed */
+    height: auto;
+}
+
+/* Header Styles */
+header {
+    background-image: url('Assests/SB.gif'); /* Replace with the path to your GIF */
+    background-size: cover; /* Ensures the GIF covers the entire header */
+    background-position: center; /* Centers the image */
+    color: rgb(229, 255, 0);
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Container Styles */
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Section Header Styles */
+h2 {
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+/* Gallery Section Styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.gallery img {
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Video Section Styles */
+.video-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.video-section iframe {
+    width: 80%;
+    height: 400px;
+    border: none;
+}
+
+/* Photography Team Styles */
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.team-members img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Packages Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+th, td {
+    padding: 12px;
+    color: white;
+    text-align: center;
+}
+
+th {
+    background-color: limegreen;
+    color: black;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
